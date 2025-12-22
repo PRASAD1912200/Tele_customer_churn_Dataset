@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/tpras/OneDrive/Documents/Tele_project/mlruns/1/models/m-8b57961fed4d428585a2ec3d56e8a98d/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.1
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 3.7.0
+model_id: m-8b57961fed4d428585a2ec3d56e8a98d
+model_size_bytes: 1246
+model_uuid: m-8b57961fed4d428585a2ec3d56e8a98d
+prompts: null
+run_id: 290517908fd6418fbf56e0695442b4fe
+utc_time_created: '2025-12-18 08:56:57.447217'

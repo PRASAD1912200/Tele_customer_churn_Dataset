@@ -1,0 +1,21 @@
+artifact_path: file:C:/Users/tpras/OneDrive/Documents/Tele_project/mlruns/1/models/m-1553d7b50eb948d3a6fed71c81e575e6/artifacts
+flavors:
+  lightgbm:
+    code: null
+    data: model.pkl
+    lgb_version: 4.6.0
+    model_class: lightgbm.sklearn.LGBMClassifier
+  python_function:
+    data: model.pkl
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.14.1
+mlflow_version: 3.7.0
+model_id: m-1553d7b50eb948d3a6fed71c81e575e6
+model_size_bytes: 348870
+model_uuid: m-1553d7b50eb948d3a6fed71c81e575e6
+prompts: null
+run_id: f7fb2c2d876c4a549a68e28b5a58cdf2
+utc_time_created: '2025-12-18 08:59:25.108630'

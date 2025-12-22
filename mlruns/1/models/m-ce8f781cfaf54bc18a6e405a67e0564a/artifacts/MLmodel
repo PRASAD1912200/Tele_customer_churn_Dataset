@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/tpras/OneDrive/Documents/Tele_project/mlruns/1/models/m-ce8f781cfaf54bc18a6e405a67e0564a/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.14.1
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.core.Booster
+    model_format: ubj
+    xgb_version: 3.1.2
+mlflow_version: 3.7.0
+model_id: m-ce8f781cfaf54bc18a6e405a67e0564a
+model_size_bytes: 315385
+model_uuid: m-ce8f781cfaf54bc18a6e405a67e0564a
+prompts: null
+run_id: fe8340f11ac445a2b4b14ceeb48da76d
+utc_time_created: '2025-12-18 08:59:16.847077'
